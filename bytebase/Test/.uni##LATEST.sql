@@ -15,7 +15,8 @@ CREATE TABLE `student` (
 --
 CREATE TABLE `subject` (
   `id` bigint NOT NULL,
-  `course` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL
+  `course` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `lecturer` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
