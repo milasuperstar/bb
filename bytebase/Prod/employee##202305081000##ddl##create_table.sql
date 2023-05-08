@@ -1,4 +1,4 @@
-CREATE TABLE employee (
+CREATE TABLE minions (
     PersonID int,
     LastName varchar(255),
     FirstName varchar(255),
