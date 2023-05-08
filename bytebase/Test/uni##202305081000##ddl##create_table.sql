@@ -1,5 +1,7 @@
-CREATE TABLE department
-(
-   id BIGINT NOT NULL,
-   dept_name VARCHAR(255)
+CREATE TABLE employee (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
 );
